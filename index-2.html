@@ -3,15 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Angelo Thinks | Software Engineer | Portfolio</title>
+    <title>AngeloThinks | Software Engineer | Portfolio</title>
     <link rel="stylesheet" href="style-2.css" />
   </head>
   <body>
+    <div class="nav-container">
+      <nav class="navbar">
+        <h1 id="navbar-logo">AngeloThinks</h1>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-links">About</a></li>
+          <li><a href="#skills" class="nav-links">Skills</a></li>
+          <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+          <li><a href="#contact" class="nav-links">Contact</a></li>
+        </ul>
+      </nav>
+    </div>    
     <!-- Hero Section -->
     <div class="hero__section">
       <div class="hero__wrapper">
         <div class="column__left">
-          <span>Angelo Thinks</span>
+          <!-- <span>Angelo Thinks</span> -->
+
           <!-- <nav>
             <ul class="column__left" id="menu">
               <li><a href="#hithere">Hi there!</a></li>
@@ -35,22 +53,23 @@
     <!-- About Section -->
     <div class="main__section">
       <div class="main__container">
-        <h1>Hello, I'm Angelo</h1>
+        <h1 id="about">About Me</h1>
         <div class="main__content">
           <div class="main__text">
             <h2>
-              Hello, my name is Angelo G. Vazquez. I am a Full Stack Engineer
+              Hi, my name is Angelo, and I am a Full Stack Engineer
               currently living in Houston, Texas.
             </h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomized words which don't look even
-              slightly believable.
-            </p>
+
+            <p>I have a passion for creating! Sometimes it can music, painting, or even cooking. However, I found myself always wanting to create more in the digital realm. I went as far as producing music through a program that only uses code for rhythms. In my previous line of work, I would always look for ways to make reports easier for my co-workers by implementing code in a master excel file.Here is a little more about myself and my passions</p>
+            <ul>
+              <li>Software Engineering</li>
+              <li>Audio Engineering and production</li>
+              <li>Creating, Collaborating, Exploring, and Discovering</li>
+            </ul>
           </div>
           <div class="main__image">
-            <img src="./images/Profile.jpg" alt="face" class="main__img" />
+            <img src="./images/self.jpg" alt="face" class="main__img" />
           </div>
         </div>
       </div>
@@ -58,28 +77,28 @@
     <!-- Services Section -->
     <div class="services">
       <div class="services__container">
-        <h1>Services</h1>
+        <h1 id="skills">Skills</h1>
         <div class="services__grid">
           <div class="services__left">
             <div class="services__content">
               <img src="./images/chess.svg" alt="chess piece" />
               <div class="service__desc">
-                <h2>Full Stack Development</h2>
-                <p>List the languages for front-end or icons</p>
+                <h2>Front-End Development</h2>
+                <p>JavaScript, HTMl, CSS, React</p>
               </div>
             </div>
             <div class="services__content">
               <img src="./images/wireframe.svg" alt="chess piece" />
               <div class="service__desc">
-                <h2>Website and Web Apps</h2>
-                <p>List the languages for front-end or icons</p>
+                <h2>Back-End Development</h2>
+                <p>Node.JS, Express, PSQL, JWT</p>
               </div>
             </div>
             <div class="services__content">
               <img src="./images/virtual.svg" alt="chess piece" />
               <div class="service__desc">
-                <h2>Mobile Apps</h2>
-                <p>List the languages for front-end or icons</p>
+                <h2>Database Management</h2>
+                <p>Postgresql, PSQL, MongoDB, DBeaver</p>
               </div>
             </div>
           </div>
@@ -98,7 +117,8 @@
     <!-- Portfolio Section -->
     <div class="portfolio">
       <div class="portfolio__container">
-        <h1>Portfolio</h1>
+        <h1 id="portfolio">Portfolio</h1>
+
         <div class="portfolio__main">
           <div class="portfolio__left">
             <img
@@ -108,15 +128,49 @@
             />
           </div>
           <div class="portfolio__right">
-            <h2>Projects</h2>
-            <p>Bookmark App</p>
-            <a href="#">See more ></a>
+            <h2>Github Projects and Apps</h2>
+            <!-- <p>Bookmark App</p> -->
+            <a href="https://github.com/AngeloThinks">Github</a>
           </div>
           <div class="portfolio__projects">
+            <div class="portfolio__projects__container">
               <!-- insert capstone screen shots -->
-              <img src="./images/portfolio1.svg" alt="portfolio">
-              <img src="./images/portfolio2.svg" alt="portfolio">
-              <img src="./images/portfolio3.svg" alt="portfolio">
+              <a href="https://the-hive-client-capstone.vercel.app/homePage"><img src="./screenshots/hive-home.png" alt="portfolio" desc="the-hive-audio"></a>
+              <a href="https://the-hive-client-capstone.vercel.app/homePage"><h2>The Hive Audio</h2></a>
+              <p class='portfolio__projects desc'>The Hive Audio is a recording and mastering audio service for musicians.This app will allow users to book a session with the Engineer of their choice through an appointment system.</p>
+              <!-- <p class='portfolio__projects desc'>Tech used:</p> -->
+              <ul class='portfolio__projects ul'>
+                Tech used:
+                <li>React</li>
+                <li>JWT Authentication</li>
+                <li>Node.JS</li>
+                <li>Postgresql</li>
+              </ul>
+              <a href="https://spaced-repetition-frontend-weld.vercel.app/login"><img src="./screenshots/sr-home.png" alt="portfolio" desc="spaced-repetition-app"></a>
+              <a href="https://spaced-repetition-frontend-weld.vercel.app/login"><h2>Spaced Repetition</h2></a>
+              <p class='portfolio__projects desc'>This project uses spaced repetition to allow the user to create an account, learn a set number of Spanish words from a database, keep track of their score, and the number of times they've gotten a word correct and incorrect.</p>
+              <!-- <p class='portfolio__projects desc'>Tech used:</p> -->
+              <ul class='portfolio__projects ul'>
+                Tech used:
+                <li>React</li>
+                <li>Cypress</li>
+                <li>Node.JS</li>
+                <li>CORS</li>
+                <li>Postgresql</li>
+              </ul>
+              <a href="https://roost-client.vercel.app"><img src="./screenshots/roost-home.png" alt="portfolio" desc="roost-capstone"></a>
+              <a href="https://roost-client.vercel.app"><h2>Roost</h2></a>
+              <p class='portfolio__projects desc'>Roost is an application that is used to generate a shuffled list of names within a user created roster. A visitor and user are not required to login.</p>
+              <!-- <p class='portfolio__projects desc'>Tech used:</p> -->
+              <ul class='portfolio__projects ul'>
+                Tech used:
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Node.JS</li>
+                <li>Mocha</li>
+                <li>Postgresql</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -128,22 +182,25 @@
             <p>Email</p>
             <span>angelogvazquez@gmail.com</span>
         </div>
-        <h1>Contact Me</h1>
+        <h1 id="contact">Contact Me</h1>
     </div>
     <!-- Footer  -->
     <div class="footer">
         <div class="footer__container">
             <div class="footer__left">
-                <h2>Angelo G. Vazquez</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, neque?</p>
+                <!-- <h2>AngeloThinks</h2> -->
+                <p class="footer">&copy;AngeloThinks</p>
             </div>
             <div class="footer__right">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
             </div>
         </div>
     </div>
+    <script src='app.js'></script>
   </body>
 </html>
