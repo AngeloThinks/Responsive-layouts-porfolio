@@ -235,7 +235,7 @@ header nav ul li:last-child a {
     }
   }
   
-  /* Main Section */
+  /* About Me/Main Section */
   .main__section {
     padding: 60px 60px;
     background: #002ed0;
@@ -275,6 +275,10 @@ header nav ul li:last-child a {
   
   .main__text p {
     line-height: 2.3;
+  }
+
+  .main__text ul {
+    
   }
   
   .main__image {
@@ -475,13 +479,14 @@ header nav ul li:last-child a {
     grid-template-columns: 1fr 1fr;
   }
   
-  .portfolio__img {
+  /* .portfolio__img {
     height: 100%;
     width: 100%;
-  }
+  } */
   
   .portfolio__right {
-    padding: 150px 100px 0 20px;
+    padding: 0px 100px 0 20px;
+    text-align: center;
   }
   
   .portfolio__right h2 {
