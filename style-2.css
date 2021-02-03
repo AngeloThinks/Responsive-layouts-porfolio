@@ -510,7 +510,7 @@ header nav ul li:last-child a {
   /* .portfolio__projects__container{
 
   } */
-  .portfolio__projects desc {
+  .portfolio__projects__desc {
     display: flex;
     flex-direction: row;
     justify-content: center;
