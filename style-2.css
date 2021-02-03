@@ -601,6 +601,19 @@ header nav ul li:last-child a {
     font-size: 40px;
     color: #fff;
   }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
   
   @media screen and (max-width: 768px) {
     .contact {
@@ -629,6 +642,19 @@ header nav ul li:last-child a {
       margin-left: 0;
       margin-top: 24px;
       font-size: 32px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 5px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
     }
   }
   
@@ -667,6 +693,19 @@ header nav ul li:last-child a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
   }
   
   @media screen and (max-width: 1000px) {
