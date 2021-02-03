@@ -585,6 +585,7 @@ header nav ul li:last-child a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
   }
   
   .contact__bar img {
