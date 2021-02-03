@@ -268,7 +268,7 @@ header nav ul li:last-child a {
   }
   
   .main__text h2 {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 1.5;
     margin-bottom: 32px;
   }
@@ -330,7 +330,7 @@ header nav ul li:last-child a {
   
   .services__container {
     background: #000;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 100px;
     padding-left: 60px;
   }
@@ -394,6 +394,12 @@ header nav ul li:last-child a {
   }
   
   .yellow__bar p {
+    margin-right: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .yellow__bar a:link, a:visited{
     margin-right: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -619,6 +625,7 @@ header nav ul li:last-child a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
     
   }
   
