@@ -398,6 +398,19 @@ header nav ul li:last-child a {
     font-weight: 700;
     text-transform: uppercase;
   }
+
+  .yellow__bar a:link, a:visited{
+    margin-right: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 20px;
+   cursor: pointer;
+   display: inline-block;
+
+  }
   
   /* Services Media Queries */
   @media screen and (max-width: 768px) {
