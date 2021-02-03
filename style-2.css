@@ -97,7 +97,7 @@ header nav ul li:last-child a {
       font-size: 32px;
     }
   }
-  /* About Section */
+  
   /* Main Section */
   .main__section {
     padding: 60px 60px;
@@ -150,7 +150,7 @@ header nav ul li:last-child a {
     height: 610px;
   }
   
-  /* Media Queries for About Section/Main */
+  /* Media Queries */
   @media screen and (max-width: 1000px) {
     .main__section {
       padding: 30px;
