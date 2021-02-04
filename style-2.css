@@ -382,12 +382,16 @@ header nav ul li:last-child a {
     height: 80px;
     bottom: -40px;
     right: 0;
-    width: 80%;
+    width: 68%;
     color: #000;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
   }
+
+    
+
   
   .yellow__bar img {
     margin: 0 40px;
@@ -399,12 +403,12 @@ header nav ul li:last-child a {
     text-transform: uppercase;
   }
 
-  .yellow__bar a:link, a:visited{
+  /* .yellow__bar a:link, a:visited{
     margin-right: 40px;
     font-weight: 700;
     text-transform: uppercase;
   }
-  
+   */
   /* Services Media Queries */
   @media screen and (max-width: 768px) {
     .services__grid {
